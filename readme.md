@@ -163,6 +163,14 @@ div {
 - 최대한 DOM 조작에서 안전한 js 코드를 짠다.
 - 리팩토링에 많은 공을 들여보자!!!
 
+## 🌾 Jayden's Learning Plan
+
+- Mon: DOM api 및 Event delegation 학습(코드스쿼드 자료)
+- Tue: 리팩토링 진행 및 vanilla extract 학습
+- Wed: 리팩토링 완전 집중!!! 작게라도 component 열심히 나누기!!!
+- Thu: 리팩토링 및 애니메이션 작업
+- Fri: 개념 복습 및 구현 디테일 살리기
+
 ## 🌲 Jayden's Check List
 
 - [x] readme 작성하기
@@ -172,7 +180,7 @@ div {
 - [ ] `리팩토링`(변수명, 함수 분리 등)
   - [x] css 파일 분리
 
-## 🌳 Jayden's Organization
+## 🌳 Jayden's Record
 
 ### DOM api가 존재하는 이유
 
