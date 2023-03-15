@@ -1,13 +1,12 @@
-import { DimComponent } from './components/dim';
-import { HeaderComponent } from './components/header';
-
+import { DimLayerComponent } from './components/layers/DimLayerComponent';
+import { ButtonComponent } from './components/ButtonComponent';
 class App {
-  private readonly dim: DimComponent;
-  private readonly header: HeaderComponent;
+  private readonly dim: DimLayerComponent;
+  private readonly button: ButtonComponent;
   constructor(appRoot: HTMLElement) {
-    this.header = new HeaderComponent();
-    this.header.attachTo(appRoot, 'afterbegin')
-    this.dim = new DimComponent();
+    this.button = new ButtonComponent('Button');
+    this.dim = new DimLayerComponent();
+    this.button.attachTo(appRoot);
     this.dim.attachTo(appRoot, 'beforeend');
   }
 }

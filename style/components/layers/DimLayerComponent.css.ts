@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-export const dimStyle = style({
+export const DimLayerStyle = style({
   position: 'fixed',
   top: 0,
   left: 0,
@@ -8,5 +8,5 @@ export const dimStyle = style({
   height: '100%',
   backgroundColor: 'var(--color-black-tr40)',
   zIndex: 1,
-  display: 'block',
+  display: 'none',
 });

@@ -1,4 +1,4 @@
-import { BaseComponent } from '../component';
+import { BaseComponent } from '../Base';
 import { headerStyle } from '../../style/components/header.css.js';
 
 export class HeaderComponent extends BaseComponent<HTMLElement> {
