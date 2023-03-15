@@ -4,7 +4,7 @@ class App {
   private readonly dim: DimLayerComponent;
   private readonly button: ButtonComponent;
   constructor(appRoot: HTMLElement) {
-    this.button = new ButtonComponent('Button');
+    this.button = new ButtonComponent('Button', 'flexible');
     this.dim = new DimLayerComponent();
     this.button.attachTo(appRoot);
     this.dim.attachTo(appRoot, 'beforeend');

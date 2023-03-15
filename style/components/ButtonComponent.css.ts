@@ -18,6 +18,13 @@ export const ButtonComponentStyle = style({
 
   border: '1px solid var(--color-yellow-300)',
   borderRadius: '4px',
+  fontStyle: 'normal',
+  fontWeight: '600',
+  fontSize: '11px',
+  lineHeight: '13px',
+  textAlign: 'center',
+  letterSpacing: '-0.06em',
+
   ':hover': {
     cursor: 'pointer',
   },
