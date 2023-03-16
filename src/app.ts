@@ -3,6 +3,7 @@ import { ButtonComponent } from './components/ButtonComponent';
 import { SymbolComponent } from './components/SymbolComponent';
 import { ImageComponent } from './components/ImageComponent';
 import { AnchorComponent } from './components/AnchorComponent';
+import { SearchBarComponent } from './components/SearchBarComponent';
 
 class App {
   private readonly dim: DimLayerComponent;
@@ -17,13 +18,16 @@ class App {
       'assets/nav-bar/logo.svg',
       'var(--color-white)',
     );
-
     this.anchor = new AnchorComponent('', '오늘의 딜');
-    this.dim = new DimLayerComponent();
+    const searchBar = new SearchBarComponent();
+
     this.button.attachTo(appRoot);
     this.image.attachTo(appRoot);
     this.symbol.attachTo(appRoot);
     this.anchor.attachTo(appRoot);
+    searchBar.attachTo(appRoot);
+
+    this.dim = new DimLayerComponent();
     // this.dim.attachTo(appRoot, 'beforeend');
   }
 }

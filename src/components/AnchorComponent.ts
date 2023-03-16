@@ -1,4 +1,3 @@
-import { SymbolComponentStyle } from '../../style/components/SymbolComponent.css';
 import { BaseComponent } from '../Base';
 import { AnchorComponentStyle } from '../../style/components/AnchorComponent.css';
 
