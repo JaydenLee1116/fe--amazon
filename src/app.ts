@@ -1,13 +1,9 @@
-import { NavBarMainComponent } from './components/NavBarMainComponent';
-import { TextComponent } from './components/TextComponent';
+import { NavBarMainComponent } from './components/navbar/main/NavBarMainComponent';
 
 class App {
   constructor(appRoot: HTMLElement) {
     const navBarMain = new NavBarMainComponent();
     navBarMain.attachTo(appRoot);
-
-    const text = new TextComponent('텍스트');
-    text.attachTo(appRoot);
   }
 }
 

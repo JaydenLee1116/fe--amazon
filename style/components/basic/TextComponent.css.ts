@@ -1,7 +1,9 @@
 import { style } from '@vanilla-extract/css';
 
 export const TextComponentStyle = style({
-  color: 'var(--color-black)',
+  display: 'block',
+  color: 'var(--color-white)',
   fontSize: 'var(--font-md)',
   fontWeight: 'var(--weight-regular)',
+  textAlign: 'center',
 });

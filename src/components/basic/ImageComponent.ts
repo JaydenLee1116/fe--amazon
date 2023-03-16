@@ -1,5 +1,5 @@
-import { BaseComponent } from '../Base';
-import { ImageComponentStyle } from '../../style/components/ImageComponent.css';
+import { BaseComponent } from '../../Base';
+import { ImageComponentStyle } from '../../../style/components/basic/ImageComponent.css';
 
 export class ImageComponent extends BaseComponent<HTMLImageElement> {
   constructor(path: string, width: string, height: string) {

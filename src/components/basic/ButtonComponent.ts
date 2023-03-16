@@ -1,5 +1,5 @@
-import { BaseComponent } from '../Base';
-import { ButtonComponentStyle } from '../../style/components/ButtonComponent.css';
+import { BaseComponent } from '../../Base';
+import { ButtonComponentStyle } from '../../../style/components/basic/ButtonComponent.css';
 
 export class ButtonComponent extends BaseComponent<HTMLButtonElement> {
   constructor(text: string, type?: string) {

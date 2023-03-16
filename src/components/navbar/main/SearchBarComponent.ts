@@ -1,10 +1,10 @@
-import { BaseComponent } from '../Base';
+import { BaseComponent } from '../../../Base';
 import {
   SearchBarComponentStyle,
   SearchBarInputComponentStyle,
   SearchBarButtonComponentStyle,
-} from '../../style/components/SearchBarComponent.css';
-import { SymbolComponent } from './SymbolComponent';
+} from '../../../../style/components/navbar/main/SearchBarComponent.css';
+import { SymbolComponent } from '../../basic/SymbolComponent';
 
 export class SearchBarComponent extends BaseComponent<HTMLElement> {
   constructor() {

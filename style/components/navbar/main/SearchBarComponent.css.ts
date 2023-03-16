@@ -27,4 +27,5 @@ export const SearchBarButtonComponentStyle = style({
   height: '2rem',
   borderRadius: '0 .5rem .5rem 0',
   backgroundColor: 'var(--color-orange-100)',
+  cursor: 'pointer',
 });
