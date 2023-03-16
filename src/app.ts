@@ -10,8 +10,8 @@ class App {
     this.button = new ButtonComponent('Button', 'flexible');
     this.symbol = new SymbolComponent('assets/nav-bar/logo.svg');
     this.dim = new DimLayerComponent();
-    this.button.attachTo(appRoot);
-    this.symbol.attachTo(appRoot)
+    // this.button.attachTo(appRoot);
+    this.symbol.attachTo(appRoot);
     this.dim.attachTo(appRoot, 'beforeend');
   }
 }

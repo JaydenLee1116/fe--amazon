@@ -1,8 +1,15 @@
-import { BaseComponent } from '../Base';
 import { SymbolComponentStyle } from '../../style/components/SymbolComponent.css';
+import { ImageComponent } from './ImageComponent';
 
-export class SymbolComponent extends BaseComponent<HTMLElement> {
-  constructor(path: string) {
-    super(`<img class='${SymbolComponentStyle}' src='${path}' />`);
+export class SymbolComponent extends ImageComponent {
+  constructor(path: string, backgroundColor?: string) {
+    super(
+      `<img class='${SymbolComponentStyle}' src='${path}' />`,
+      '1rem',
+      '1rem',
+    );
+
+    this.element.style.backgroundColor =
+      backgroundColor || 'var(--color-black)';
   }
 }

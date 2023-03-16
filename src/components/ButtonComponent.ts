@@ -6,8 +6,7 @@ export class ButtonComponent extends BaseComponent<HTMLElement> {
     super(
       `<button class='${ButtonComponentStyle}' type='${type}'>${content}</button>`,
     );
-    console.log(this.element);
-    console.log(this.element.getAttribute('type'));
+
     if (this.element.getAttribute('type') === 'flexible') {
       this.element.style.width = '4rem';
     }

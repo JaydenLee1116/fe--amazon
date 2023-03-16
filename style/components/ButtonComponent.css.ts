@@ -7,7 +7,6 @@ export const ButtonComponentStyle = style({
   alignItems: 'center',
   padding: '0px 10px',
 
-  position: 'absolute',
   width: '10rem',
   height: '2rem',
   // left: '20px',
