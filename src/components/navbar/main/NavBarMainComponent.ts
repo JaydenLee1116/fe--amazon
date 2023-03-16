@@ -1,9 +1,9 @@
 import { BaseComponent } from '../../../Base';
 import { ImageComponent } from '../../basic/ImageComponent';
 import { SearchBarComponent } from './SearchBarComponent';
-import { NavBarMainComponentStyle } from '../../../../style/components/navbar/main/NavBarMainComponent.css';
 import { TwoRowTextComponent } from './TwoRowTextComponent';
-import { SymbolTextComponent } from './SymbolTextComponent';
+import { SymbolTextComponent } from '../SymbolTextComponent';
+import { NavBarMainComponentStyle } from '../../../../style/components/navbar/main/NavBarMainComponent.css';
 
 export class NavBarMainComponent extends BaseComponent<HTMLElement> {
   constructor() {

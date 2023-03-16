@@ -1,6 +1,6 @@
 import { BaseComponent } from '../../../Base';
 import { TextComponent } from '../../basic/TextComponent';
-import { TwoRowTextComponentStyle } from '../../../../style/components/navbar/main/TwoRowTextContainer.css';
+import { TwoRowTextComponentStyle } from '../../../../style/components/navbar/main/TwoRowTextComponent.css';
 
 export class TwoRowTextComponent extends BaseComponent<HTMLAnchorElement> {
   constructor(firstText: string, secondText: string, link?: string) {

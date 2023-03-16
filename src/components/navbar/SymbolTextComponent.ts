@@ -1,7 +1,7 @@
-import { BaseComponent } from '../../../Base';
-import { SymbolComponent } from '../../basic/SymbolComponent';
-import { TextComponent } from '../../basic/TextComponent';
-import { SymbolTextComponentStyle } from '../../../../style/components/navbar/main/SymbolTextComponent.css';
+import { BaseComponent } from '../../Base';
+import { SymbolComponent } from '../basic/SymbolComponent';
+import { TextComponent } from '../basic/TextComponent';
+import { SymbolTextComponentStyle } from '../../../style/components/navbar/SymbolTextComponent.css';
 
 export class SymbolTextComponent extends BaseComponent<HTMLAnchorElement> {
   constructor(symbolPath: string, text: string, link?: string) {
