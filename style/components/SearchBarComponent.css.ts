@@ -7,7 +7,7 @@ export const SearchBarComponentStyle = style({
 });
 
 export const SearchBarInputComponentStyle = style({
-  width: '100%',
+  width: '45rem',
   height: '2rem',
   padding: '0 0 0 .75rem',
   border: '0',

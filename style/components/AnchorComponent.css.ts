@@ -11,4 +11,5 @@ export const AnchorComponentStyle = style({
   fontWeight: '600',
   fontSize: '13px',
   lineHeight: '1rem',
+  color: 'var(--color-white)',
 });
