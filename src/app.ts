@@ -1,19 +1,13 @@
-import { DimLayerComponent } from './components/layers/DimLayerComponent';
-import { ButtonComponent } from './components/ButtonComponent';
-import { SymbolComponent } from './components/SymbolComponent';
-import { ImageComponent } from './components/ImageComponent';
-import { AnchorComponent } from './components/AnchorComponent';
-import { SearchBarComponent } from './components/SearchBarComponent';
 import { NavBarMainComponent } from './components/NavBarMainComponent';
+import { TextComponent } from './components/TextComponent';
 
 class App {
-  private readonly dim: DimLayerComponent;
   constructor(appRoot: HTMLElement) {
     const navBarMain = new NavBarMainComponent();
     navBarMain.attachTo(appRoot);
 
-    this.dim = new DimLayerComponent();
-    // this.dim.attachTo(appRoot, 'beforeend');
+    const text = new TextComponent('텍스트');
+    text.attachTo(appRoot);
   }
 }
 
