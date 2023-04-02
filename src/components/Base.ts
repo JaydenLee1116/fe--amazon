@@ -3,6 +3,10 @@ import { CSSProperties } from '@vanilla-extract/css';
 export interface Base {
   attachTo(parent: HTMLElement, position?: InsertPosition): void;
   removeFrom(parent: HTMLElement): void;
+  setStyles(stylesObject: Record<string, string>): void;
+  setEventListener(event: string, fn: (e: Event) => void): void;
+  addChildHtml(htmlString: string): void;
+  deleteAllChild(): void;
 }
 export class BaseComponent<T extends HTMLElement> implements Base {
   private _element: T;

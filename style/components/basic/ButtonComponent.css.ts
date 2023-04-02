@@ -9,8 +9,6 @@ export const ButtonComponentStyle = style({
 
   width: '10rem',
   height: '2rem',
-  // left: '20px',
-  // top: '20px',
 
   background:
     'linear-gradient(174.6deg, #FFFFFF 4.31%, #FED15F 50.01%, #FEBE30 95.71%)',

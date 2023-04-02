@@ -7,7 +7,6 @@ import { DimLayerComponent } from './components/layer/DimLayerComponent';
 export class Header extends BaseComponent<HTMLElement> {
   constructor() {
     super(`<header></header>`);
-
     const navBarMainComponent = new NavBarMainComponent();
     const navBarSubComponent = new NavBarSubComponent();
     const sideBarComponent = new SideBarComponent();
